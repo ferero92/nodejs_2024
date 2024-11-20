@@ -1,5 +1,6 @@
 import { readdir, stat } from 'node:fs/promises'
 import { join } from 'node:path'
+const pc = require('picocolors')
 
 const folder = process.argv[2] ?? '.'
 
@@ -8,7 +9,7 @@ async function ls(folder) {
     try {
         files = await readdir(folder)
     } catch {
-        console.error(`No se pudo leer el directio ${folder}`)
+        console.error(pc.red(`No se pudo leer el directio ${folder}`))
         process.exit(1)
     }
 
