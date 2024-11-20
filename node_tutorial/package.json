@@ -1,0 +1,24 @@
+{
+  "name": "tuto1",
+  "version": "1.0.0",
+  "description": "Primer tutorial",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferero92/nodejs_2024.git"
+  },
+  "keywords": [
+    "nodejs",
+    "ferero92",
+    "midudev"
+  ],
+  "author": "ferero92",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ferero92/nodejs_2024/issues"
+  },
+  "homepage": "https://github.com/ferero92/nodejs_2024#readme"
+}
