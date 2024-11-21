@@ -1,0 +1,23 @@
+{
+  "name": "tuto2",
+  "version": "1.0.0",
+  "description": "Clase 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:3": "node --watch 3.express.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferero92/nodejs_2024.git"
+  },
+  "author": "ferero92",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ferero92/nodejs_2024/issues"
+  },
+  "homepage": "https://github.com/ferero92/nodejs_2024#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
