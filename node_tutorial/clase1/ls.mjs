@@ -1,6 +1,6 @@
 import { readdir, stat } from 'node:fs/promises'
 import { join } from 'node:path'
-const pc = require('picocolors')
+// const pc = require('picocolors')
 
 const folder = process.argv[2] ?? '.'
 

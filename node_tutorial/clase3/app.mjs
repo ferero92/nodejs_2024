@@ -4,6 +4,11 @@ import { validateMovie, validatePartialMovie } from './schemas/movies.mjs'
 import movies from './movies.json' assert { type: 'json'}
 
 const PORT = process.env.PORT ?? 1234
+const ACCEPTED_ORIGINS = [
+    'http://192.168.1.200:8080',
+    'http://localhost:8080'
+]
+
 const app = express()
 app.disable('x-powered-by')
 
