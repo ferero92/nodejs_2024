@@ -1,5 +1,5 @@
 import { randomUUID } from 'node:crypto'
-import movies from '../movies.json' with { type: 'json' }
+import movies from '../../movies.json' with { type: 'json' }
 
 // Especificación experimental que se eliminará en un futuro para leer archivos json
 // import movies from '../movies.json' assert { type: 'json' }
